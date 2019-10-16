@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+page{
+    background: #F2F2F2;
+    width: 100%;
+    height: 100%;
+}
+.scroll{
+    ::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+        color: transparent;
+    }  
+}

@@ -1,0 +1,50 @@
+
+{
+  "pages": [  "pages/index/index",
+    "pages/my/my" ,
+    "pages/order/order",
+   
+    "pages/index/Indaddress",
+    "pages/classification/classification",
+    "pages/order/orderList"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "点餐",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#D24D4D",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/navImg/home_n.png",
+        "selectedIconPath": "/static/navImg/home_ed.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "iconPath": "/static/navImg/classificn_n.png",
+        "selectedIconPath": "/static/navImg/classificn_ed.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "/static/navImg/car_n.png",
+        "selectedIconPath": "/static/navImg/car_ed.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "/static/navImg/me_n.png",
+        "selectedIconPath": "/static/navImg/me_ed.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
